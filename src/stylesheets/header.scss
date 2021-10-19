@@ -1,0 +1,33 @@
+// COLOR VARIABLES
+$font-color: #000;
+$font-hover: #D1462F;
+$background: #FBF7EF;
+$background-alternative: #573D1C;
+
+.header{
+  display: flex;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  width: 100%;
+  height: 230px;
+  color: $font-color;
+}
+
+.header-title{
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 50px;
+  font-size: 40px;
+  text-align: center;
+  color: $font-color;
+  transition: all 0.2s ease-in-out;
+  &:hover{
+    color: $font-hover;
+  }
+}
+
+.header-sub-title{
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 70px;
+}
