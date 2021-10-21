@@ -5,5 +5,36 @@ $background: #FBF7EF;
 $background-alternative: #573D1C;
 
 .home-page{
-  
+  font-family: "prompt", sans-serif;
+}
+
+.hero-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: $font-hover;
+  }
+  p{
+    font-size: 22px;
+    line-height: 50px;
+  }
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  a{
+    padding-right: 20px;
+    font-size: 22px;
+  }
 }
