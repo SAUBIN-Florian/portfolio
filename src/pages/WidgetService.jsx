@@ -28,16 +28,20 @@ export default function WidgetService() {
         </div>
       </div>
       <div className="page-section-video">
-        <video src="">Placeholder</video>
+        <img src="https://via.placeholder.com/600/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quasi sed, 
+          officia eveniet veritatis fuga ut commodi, 
+          beatae nesciunt ipsam dolore laborum voluptatem et dicta velit, 
+          minima ratione doloremque!</p>
       </div>
       <div className="page-section-img">
-        <img src="https://via.placeholder.com/150/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/150/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/150/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
       </div>
       <div className="page-section-link">
-        <Link to="/blog-node">Blog Node</Link>
-        <Link to="/landing-page">Landing Page</Link>
+        <Link to="/blog-node" className="previous-link">Blog Node</Link>
+        <Link to="/landing-page" className="next-link">Landing Page</Link>
       </div>
     </div>
   )

@@ -1,6 +1,126 @@
 // COLOR VARIABLES
 $font-color: #000;
+$font-color-alternative: #d1ccc0;
 $font-hover: #D1462F;
 $background: #FBF7EF;
 $background-alternative: #573D1C;
 
+.page-title{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  width: 60%;
+  margin: 100px auto;
+  font-family: "prompt", sans-serif;
+  h3{
+    color: $font-color-alternative;
+  }
+  h1{
+    font-size: 58px;
+  }
+}
+
+.page-section-content{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 50px auto 0;
+  font-family: "prompt", sans-serif;
+}
+
+.page-scope{
+  flex: 2;
+  line-height: 30px;
+  h3{
+    color: $font-color-alternative;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  li{
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+.page-summary{
+  flex: 4;
+  line-height: 30px;
+  h3{
+    color: $font-color-alternative;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: $font-color-alternative;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-right: 50px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      color: $font-hover;
+      border-bottom: 1px dotted $font-hover;
+    }
+  }
+}
+
+.page-section-video{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "prompt", sans-serif;
+  width: 60%;
+  margin: 250px auto;
+  p{
+    padding-top: 200px;
+  }
+}
+
+.page-section-img{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "prompt", sans-serif;
+  width: 60%;
+  margin: 100px auto;
+  img{
+    margin-bottom: 100px;
+  }
+}
+
+.page-section-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "prompt", sans-serif;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  a{
+    text-decoration: none;
+    font-size: 22px;
+    color: $font-color;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      color: $font-hover;
+    }
+  }
+}
+
+.previous-link::before{
+  content: "🠀";
+  padding-right: 20px;
+  vertical-align: -16%;
+  font-size: 50px;
+}
+
+.next-link::after{
+  content: "🠂";
+  padding-left: 20px;
+  vertical-align: -16%;
+  font-size: 50px;
+}

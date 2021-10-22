@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import Carousel from "../components/Carousel";
 import "../stylesheets/home.scss";
 
 export default function Home() {
@@ -21,17 +20,7 @@ export default function Home() {
           </div>
           <img className="hero-banner-img" src="https://via.placeholder.com/500/D1462F/FFFFFF?Text=PlaceholderC/O https://placeholder.com/" alt="placeholder" />
         </div>
-        <div className="carousel">
-          <Link to="/landing-page">
-            landing
-          </Link>
-          <Link to="/blog-node">
-            blog node
-          </Link>
-          <Link to="/widget-service">
-            widget service
-          </Link>
-        </div>
+        <Carousel />
     </div>
   )
 }
