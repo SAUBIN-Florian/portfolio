@@ -28,7 +28,9 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="page-section-video">
-        <img src="https://via.placeholder.com/600/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <video autoPlay muted loop>
+          <source src="/videos/landing-cut.mp4" type="video/mp4" />
+        </video>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quasi sed, 
           officia eveniet veritatis fuga ut commodi, 
           beatae nesciunt ipsam dolore laborum voluptatem et dicta velit, 
