@@ -37,9 +37,8 @@ export default function LandingPage() {
           minima ratione doloremque!</p>
       </div>
       <div className="page-section-img">
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <img src="/images/mockup-landing.png" alt="mockup of the pc demo" />
+        <img src="/images/mockup-responsive-landing.png" alt="mockup of the phone demo" />
       </div>
       <div className="page-section-link">
         <Link to="/widget-service" className="previous-link">Widget Service</Link>
