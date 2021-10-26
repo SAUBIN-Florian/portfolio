@@ -12,7 +12,7 @@ export default function Carousel() {
             View project...
           </Link>
         </div>
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt=""/>
+        <img src="" alt="project 1"/>
       </div>
       <div className="carousel-blog">
         <div className="carousel-content">
@@ -22,7 +22,7 @@ export default function Carousel() {
             View project...
           </Link>
         </div>
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt=""/>
+        <img src="" alt="project 2"/>
       </div>
       <div className="carousel-widget">
         <div className="carousel-content">
@@ -32,7 +32,7 @@ export default function Carousel() {
             View project...
           </Link>
         </div>
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt=""/>
+        <img src="" alt="project 3"/>
       </div>
     </div>
   )
