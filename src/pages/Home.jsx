@@ -1,4 +1,4 @@
-import Carousel from "../components/Carousel";
+import Slider from "../components/Slider";
 import "../stylesheets/home.scss";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <img className="hero-banner-img" src="https://via.placeholder.com/500/D1462F/FFFFFF?Text=PlaceholderC/O https://placeholder.com/" alt="placeholder" />
         </div>
-        <Carousel />
+        <Slider />
     </div>
   )
 }
