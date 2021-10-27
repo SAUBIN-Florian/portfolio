@@ -9,14 +9,23 @@ import Contact from "./pages/Contact";
 import './stylesheets/portfolio.scss';
 
 function App() {
+
+  const handleScrollTop = () => {
+    window.scrollTo({top: 0})
+  };
+
+  const handleScrollBottom = () => {
+    window.scrollTo({top: 3000})
+  };
+
   return (
     <div className="portfolio">
       <Router>
         <ul className="menu">
-          <Link to="/">
+          <Link to="/" onClick={handleScrollTop}>
             <li className="menu-item">HOME</li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={handleScrollBottom}>
             <li className="menu-item">WORK</li>
           </Link>
           <Link to="/contact">

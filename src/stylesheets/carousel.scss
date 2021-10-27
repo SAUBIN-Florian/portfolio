@@ -5,12 +5,38 @@ $font-hover: #D1462F;
 $background: #FBF7EF;
 $background-alternative: #573D1C;
 
+
+.carousel-landing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-widget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .carousel-content{
   display: flex;
   flex-flow: column;
   font-family: "prompt", sans-serif;
   h3{
     color: $font-color-alternative;
+    line-height: 70px;
   }
   a{
     color: $font-color;
@@ -24,5 +50,30 @@ $background-alternative: #573D1C;
 }
 
 img{
-  width: 400px;
+  width: 50%;
+}
+
+.prev-carousel-arrow{
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover{
+    transform: translateX(-10px);
+    color: $font-hover;
+  }
+}
+
+.next-carousel-arrow{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  font-size: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover{
+    transform: translateX(10px);
+    color: $font-hover;
+  }
 }

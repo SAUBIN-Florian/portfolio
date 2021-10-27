@@ -2,6 +2,11 @@ import "../stylesheets/projectspage.scss";
 import { Link } from "react-router-dom";
 
 export default function LandingPage() {
+
+  const handleScrollTop = () => {
+    window.scrollTo({top: 0})
+  };
+  
   return (
     <div className="landing-page">
       <div className="page-title">
@@ -39,8 +44,8 @@ export default function LandingPage() {
         <img src="/images/landing-responsive-2.jpg"className="landing-img-3" alt="mockup of the phone demo" />
       </div>
       <div className="page-section-link">
-        <Link to="/widget-service" className="previous-link">Widget Service</Link>
-        <Link to="/blog-node" className="next-link">Blog Node</Link>
+        <Link to="/widget-service" className="previous-link" onClick={handleScrollTop}>Widget Service</Link>
+        <Link to="/blog-node" className="next-link" onClick={handleScrollTop}>Blog Node</Link>
       </div>
     </div>
   )

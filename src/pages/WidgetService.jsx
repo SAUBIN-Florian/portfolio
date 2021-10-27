@@ -2,6 +2,11 @@ import "../stylesheets/projectspage.scss";
 import { Link } from "react-router-dom";
 
 export default function WidgetService() {
+
+  const handleScrollTop = () => {
+    window.scrollTo({top: 0})
+  };
+
   return (
     <div className="widget-service">
       <div className="page-title">
@@ -39,8 +44,8 @@ export default function WidgetService() {
         <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
       </div>
       <div className="page-section-link">
-        <Link to="/blog-node" className="previous-link">Blog Node</Link>
-        <Link to="/landing-page" className="next-link">Landing Page</Link>
+        <Link to="/blog-node" className="previous-link" onClick={handleScrollTop}>Blog Node</Link>
+        <Link to="/landing-page" className="next-link" onClick={handleScrollTop}>Landing Page</Link>
       </div>
     </div>
   )
