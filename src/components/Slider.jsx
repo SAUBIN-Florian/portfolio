@@ -14,7 +14,7 @@ export default function Slider() {
     containerStyle: {
       "position": "relative",
       "display": "flex",
-      "justify-content": "center",
+      "justifyContent": "center",
       "width": "95%",
       "margin": "0 auto"
     },
