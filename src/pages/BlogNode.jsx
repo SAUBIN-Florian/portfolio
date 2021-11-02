@@ -39,14 +39,14 @@ export default function BlogNode() {
       </div>
       <div className="page-section-video">
         <video className="video" autoPlay muted loop>
-          <source src="/videos/landing-cut.mp4" type="video/mp4" />
+          <source src="/videos/node-blog-cut.mp4" type="video/mp4" />
         </video>
-        <p>Fully responsive design for all devices, desktop, tablet, phone...</p>
+        <p>Register/Login system with account management...</p>
       </div>
       <div className="page-section-img">
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
-        <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />
+        <img className="blog-img" src="/images/blog-node-register.jpg" alt="blog register" />
+        <img className="blog-img" src="/images/blog-node-account.jpg" alt="blog account" />
+        <img className="blog-img" src="/images/blog-node-article.jpg" alt="blog article" />
       </div>
       <div className="page-section-link">
         <Link to="/landing-page" className="previous-link" onClick={handleScrollTop}>Landing Page</Link>

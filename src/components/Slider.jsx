@@ -50,7 +50,7 @@ export default function Slider() {
               View project...
             </Link>
           </div>
-          <img src="https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="project 2"/>
+          <img src="/images/blog-node-mockup.png" alt="project 2"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
