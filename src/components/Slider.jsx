@@ -38,7 +38,7 @@ export default function Slider() {
               View project...
             </Link>
           </div>
-          <img src="/images/mockup-landing-clean.png" alt="project 1"/>
+          <img src="/images/landing-mockup.png" alt="project 1"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
