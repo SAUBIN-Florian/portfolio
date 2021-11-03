@@ -15,10 +15,14 @@ $background-alternative: #573D1C;
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  height: 100vh;
+  padding: 60px 0;
   h1{
     font-size: 30px;
     margin-bottom: 100px;
+    color: $font-color-alternative;
+    font-weight: 500;
+  }
+  span{
     color: $font-hover;
   }
   p{
