@@ -5,7 +5,7 @@ import "../stylesheets/home.scss";
 export default function Home() {
 
   useEffect(()=>{
-    
+
   }, []);
 
   return (
