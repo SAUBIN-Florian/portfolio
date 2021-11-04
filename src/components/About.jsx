@@ -12,9 +12,8 @@ export default function About() {
 
   return (
     <div className="about-home-section">
-      <h1 className="about-title">ABOUT</h1>
+      <h1 className="about-title">TECH STACK</h1>
       <div className="about-home-content">
-        <h3>-Technology Stack:</h3>
         <div className="about-grid">
           <i className="devicon-javascript-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Javascript"></i>
           <i className="devicon-react-original" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="React"></i>

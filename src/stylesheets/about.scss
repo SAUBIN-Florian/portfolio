@@ -15,7 +15,7 @@ $background-alternative-2: #AD956B;
   h1{
     position: absolute;
     top: 15%;
-    left: calc(50% - 55px);
+    left: calc(50% - 90px);
     color: $font-color;
     font-size: 30px;
   }
@@ -29,13 +29,6 @@ $background-alternative-2: #AD956B;
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  h3{
-    align-self: flex-start;
-    color: $font-color;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 20px 0;
-  }
 }
 
 .about-grid{
