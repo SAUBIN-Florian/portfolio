@@ -34,14 +34,14 @@ export default function LandingPage() {
       </div>
       <div className="page-section-video">
         <video className="video" autoPlay muted loop>
-          <source src="/videos/landing-cut.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1636012245/portfolio/landing-cut_l7xprm.mp4" type="video/mp4" />
         </video>
         <p>Fully responsive design for all devices: desktop, tablet, phone...</p>
       </div>
       <div className="page-section-img">
-        <img src="/images/landing-section.jpg" className="landing-img-1" alt="mockup of the pc demo" />
-        <img src="/images/landing-responsive.jpg" className="landing-img-2"alt="mockup of the tablet demo" />
-        <img src="/images/landing-responsive-2.jpg"className="landing-img-3" alt="mockup of the phone demo" />
+        <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-section_zr0wop.jpg" className="landing-img-1" alt="mockup of the pc demo" />
+        <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-responsive_m1mjmq.jpg" className="landing-img-2"alt="mockup of the tablet demo" />
+        <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-responsive-2_idjdjg.jpg"className="landing-img-3" alt="mockup of the phone demo" />
       </div>
       <div className="page-section-link">
         <Link to="/widget-service" className="previous-link" onClick={handleScrollTop}>Widget Service</Link>

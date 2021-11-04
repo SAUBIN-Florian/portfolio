@@ -34,19 +34,19 @@ export default function BlogNode() {
             I also implemented a 'login checker' with the React built-in reducer (useReducer) and store the action on local storage.
           </p>
             <a href="https://saubin-florian.github.io/landing-page-demo/" target="blank">Go to site...</a>
-            <a href="https://github.com/SAUBIN-Florian/landing-page-demo" target="blank">Check the code...</a>
+            <a href="https://github.com/SAUBIN-Florian" target="blank">Check the code...</a>
         </div>
       </div>
       <div className="page-section-video">
         <video className="video" autoPlay muted loop>
-          <source src="/videos/node-blog-cut.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1636012263/portfolio/node-blog-cut_ir2qvh.mp4" type="video/mp4" />
         </video>
         <p>Register/Login system with account management...</p>
       </div>
       <div className="page-section-img">
-        <img className="blog-img" src="/images/blog-node-register.jpg" alt="blog register" />
-        <img className="blog-img" src="/images/blog-node-account.jpg" alt="blog account" />
-        <img className="blog-img" src="/images/blog-node-article.jpg" alt="blog article" />
+        <img className="blog-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/blog-node-register_ytscjz.jpg" alt="blog register" />
+        <img className="blog-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965083/portfolio/blog-node-account_l4fhsx.jpg" alt="blog account" />
+        <img className="blog-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/blog-node-article_cgexo4.jpg" alt="blog article" />
       </div>
       <div className="page-section-link">
         <Link to="/landing-page" className="previous-link" onClick={handleScrollTop}>Landing Page</Link>

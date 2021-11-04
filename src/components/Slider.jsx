@@ -38,7 +38,7 @@ export default function Slider() {
               View project...
             </Link>
           </div>
-          <img src="/images/landing-mockup.png" alt="project 1"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-mockup_jpgupy.png" alt="project 1"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -50,7 +50,7 @@ export default function Slider() {
               View project...
             </Link>
           </div>
-          <img src="/images/blog-node-mockup.png" alt="project 2"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/blog-node-mockup_dofknw.png" alt="project 2"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -62,7 +62,7 @@ export default function Slider() {
               View project...
             </Link>
           </div>
-          <img src="https://images.pexels.com/photos/1543793/pexels-photo-1543793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="project 3"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1636011967/portfolio/wip_wkvu6w.png" alt="project 3"/>
         </div>
         </Carousel.Item>
       </Carousel>
