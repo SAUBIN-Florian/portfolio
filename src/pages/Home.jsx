@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import About from "../components/About";
 import Slider from "../components/Slider";
+import setupThreeCanvas from "../setupThree";
 import "../stylesheets/home.scss";
 
 export default function Home() {
 
   useEffect(()=>{
-
+    setupThreeCanvas("#canvas")
   }, []);
 
   return (
@@ -18,7 +19,7 @@ export default function Home() {
             <p className="hero-banner-para">I have passion for UI effects, logic and creating intuitive user experiences.</p>
             <p className="hero-banner-para">I like to keep in touch with Back-End technologies too !</p>
           </div>
-          <canvas id="canvas"></canvas>
+          <div id="canvas"></div>
         </div>
         <About />
         <Slider />

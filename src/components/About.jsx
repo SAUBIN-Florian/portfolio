@@ -12,7 +12,7 @@ export default function About() {
 
   return (
     <div className="about-home-section">
-      <h1 className="about-title">TECH STACK</h1>
+      <h1 className="about-title">TECHNOLOGIES</h1>
       <div className="about-home-content">
         <div className="about-grid">
           <i className="devicon-javascript-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Javascript"></i>
