@@ -10,6 +10,7 @@ $background-alternative-2: #AD956B;
 }
 
 .hero-banner{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +33,12 @@ $background-alternative-2: #AD956B;
     line-height: 30px;
   }
 }
+
+// #canvas{
+//   position: absolute;
+//   top: calc(50% - 200px);
+//   right: -70px;
+// }
 
 .carousel{
   display: flex;
