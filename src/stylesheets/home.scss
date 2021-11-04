@@ -34,11 +34,11 @@ $background-alternative-2: #AD956B;
   }
 }
 
-// #canvas{
-//   position: absolute;
-//   top: calc(50% - 200px);
-//   right: -70px;
-// }
+#canvas{
+  position: absolute;
+  top: calc(50% - 200px);
+  right: -70px;
+}
 
 .carousel{
   display: flex;
