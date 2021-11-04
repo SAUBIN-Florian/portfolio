@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import About from "../components/About";
 import Slider from "../components/Slider";
 import "../stylesheets/home.scss";
 
@@ -19,6 +20,7 @@ export default function Home() {
           </div>
           <canvas id="canvas"></canvas>
         </div>
+        <About />
         <Slider />
     </div>
   )

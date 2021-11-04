@@ -8,11 +8,12 @@ $background-alternative-2: #AD956B;
 
 .carousel{
   position: relative;
+  width: 80%;
 }
 
 .carousel-title{
   position: absolute;
-  top: 30px;
+  top: 15%;
   left: calc(50% - 71px);
   font-size: 30px;
   color: $font-color;
