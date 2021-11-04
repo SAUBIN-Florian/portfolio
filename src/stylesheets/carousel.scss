@@ -1,10 +1,22 @@
 // FONTS && COLOR VARIABLES
-$font-color: #000;
-$font-color-alternative: #d1ccc0;
-$font-hover: #D1462F;
-$background: #FBF7EF;
-$background-alternative: #573D1C;
+$font-color: #384454;
+$font-color-alternative: #D4D3DC;
+$font-hover: #E1A624;
+$background: #FFFFFF;
+$background-alternative-2: #AD956B;
 
+
+.carousel{
+  position: relative;
+}
+
+.carousel-title{
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 71px);
+  font-size: 30px;
+  color: $font-color;
+}
 
 .carousel-landing{
   display: flex;
@@ -34,6 +46,7 @@ $background-alternative: #573D1C;
   display: flex;
   flex-flow: column;
   font-family: "prompt", sans-serif;
+  color: $font-color;
   h3{
     color: $font-color-alternative;
     line-height: 70px;
@@ -41,12 +54,25 @@ $background-alternative: #573D1C;
   a{
     color: $font-color;
     font-size: 16px;
+    width: 150px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    animation: run 4s infinite alternate ease-in-out;
     &:hover{
       color: $font-hover;
+      animation: stop ease-in-out;
     }
   }
+}
+
+@keyframes run{
+  0% {transform: translateX(0px)}
+  50% {transform: translateX(5px)}
+  100% {transform: translateX(-5px);}
+}
+
+@keyframes stop{
+  0% {transform: translateX(0)}
 }
 
 img{

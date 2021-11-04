@@ -1,9 +1,9 @@
 // FONTS && COLOR VARIABLES
-$font-color: #000;
-$font-color-alternative: #d1ccc0;
-$font-hover: #D1462F;
-$background: #FBF7EF;
-$background-alternative: #573D1C;
+$font-color: #384454;
+$font-color-alternative: #D4D3DC;
+$font-hover: #E1A624;
+$background: #FFFFFF;
+$background-alternative-2: #AD956B;
 
 .home-page{
   font-family: "prompt", sans-serif;
@@ -19,13 +19,14 @@ $background-alternative: #573D1C;
   h1{
     font-size: 30px;
     margin-bottom: 100px;
-    color: $font-color-alternative;
+    color: $font-color;
     font-weight: 500;
   }
   span{
     color: $font-hover;
   }
   p{
+    color: $font-color;
     font-size: 14px;
     line-height: 40px;
   }

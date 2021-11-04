@@ -16,10 +16,21 @@ export default function Slider() {
       "display": "flex",
       "justifyContent": "center",
       "width": "95%",
-      "margin": "0 auto"
+      "margin": "0 auto",
     },
     arrowLeft: <span className="prev-carousel-arrow">🠀</span>,
-    arrowRight: <span className="next-carousel-arrow">🠂</span>
+    arrowRight: <span className="next-carousel-arrow">🠂</span>,
+    responsiveLayout: [
+      {
+        breakpoint: 800,
+        hideArrow: true,
+        cols: 1,
+        rows: 1,
+        loop: true,
+        autoplay: 5000
+      }
+    ],
+    mobileBreakpoint: 500
   };
 
   const handleScrollTop = () => {
@@ -28,13 +39,14 @@ export default function Slider() {
 
   return (
     <div className="carousel">
+      <h1 className="carousel-title">PROJECTS</h1>
       <Carousel {...settings}>
         <Carousel.Item>
         <div className="carousel-landing">
           <div className="carousel-content">
             <h1>Landing Page Demo</h1>
             <h3>2021</h3>
-            <Link to="/landing-page" onClick={handleScrollTop}>
+            <Link to="/landing-page" className="neo-btn" onClick={handleScrollTop}>
               View project...
             </Link>
           </div>
@@ -46,7 +58,7 @@ export default function Slider() {
           <div className="carousel-content">
             <h1>Blog React Node.js</h1>
             <h3>2021</h3>
-            <Link to="/blog-node" onClick={handleScrollTop}>
+            <Link to="/blog-node" className="neo-btn" onClick={handleScrollTop}>
               View project...
             </Link>
           </div>
@@ -58,7 +70,7 @@ export default function Slider() {
           <div className="carousel-content">
             <h1>Widget Service</h1>
             <h3>2021</h3>
-            <Link to="/widget-service" onClick={handleScrollTop}>
+            <Link to="/widget-service" className="neo-btn" onClick={handleScrollTop}>
               View project...
             </Link>
           </div>
