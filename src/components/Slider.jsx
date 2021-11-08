@@ -8,8 +8,6 @@ export default function Slider() {
     showDots: true,
     cols: 1,
     rows: 1,
-    loop: true,
-    autoplay: 5000,
     scrollSnap: true,
     containerStyle: {
       "position": "relative",
@@ -47,7 +45,7 @@ export default function Slider() {
             <h1>Landing Page Demo</h1>
             <h3>2021</h3>
             <Link to="/landing-page" className="neo-btn" onClick={handleScrollTop}>
-              View project...
+              ˃
             </Link>
           </div>
           <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-mockup_jpgupy.png" alt="project 1"/>
@@ -59,7 +57,7 @@ export default function Slider() {
             <h1>Blog React Node.js</h1>
             <h3>2021</h3>
             <Link to="/blog-node" className="neo-btn" onClick={handleScrollTop}>
-              View project...
+              ˃
             </Link>
           </div>
           <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/blog-node-mockup_dofknw.png" alt="project 2"/>
@@ -71,7 +69,7 @@ export default function Slider() {
             <h1>Widget Service</h1>
             <h3>2021</h3>
             <Link to="/widget-service" className="neo-btn" onClick={handleScrollTop}>
-              View project...
+              ˃
             </Link>
           </div>
           <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1636011967/portfolio/wip_wkvu6w.png" alt="project 3"/>

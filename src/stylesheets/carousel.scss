@@ -25,6 +25,12 @@ $background-alternative-2: #AD956B;
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  &:hover{
+    a::after{
+      opacity: 1;
+      transform: translateX(15px);
+    }
+  }
 }
 
 .carousel-blog{
@@ -33,6 +39,12 @@ $background-alternative-2: #AD956B;
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  &:hover{
+    a::after{
+      opacity: 1;
+      transform: translateX(15px);
+    }
+  }
 }
 
 .carousel-widget{
@@ -41,6 +53,12 @@ $background-alternative-2: #AD956B;
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  &:hover{
+    a::after{
+      opacity: 1;
+      transform: translateX(15px);
+    }
+  }
 }
 
 .carousel-content{
@@ -53,27 +71,25 @@ $background-alternative-2: #AD956B;
     line-height: 70px;
   }
   a{
-    color: $font-color;
-    font-size: 16px;
-    width: 150px;
+    position: relative;
+    color: $background-alternative-2;
+    font-size: 30px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    animation: run 4s infinite alternate ease-in-out;
-    &:hover{
+    &::after{
+      content: "View Project...";
+      position: absolute;
+      top: calc(50% - 14px);
+      left: 0;
+      color: inherit;
+      opacity: 0;
+      font-size: 18px;
+      transition: all 0.4s ease-in-out;
+    }
+    &:hover::after{
       color: $font-hover;
-      animation: stop ease-in-out;
     }
   }
-}
-
-@keyframes run{
-  0% {transform: translateX(0px)}
-  50% {transform: translateX(5px)}
-  100% {transform: translateX(-5px);}
-}
-
-@keyframes stop{
-  0% {transform: translateX(0)}
 }
 
 img{
@@ -85,6 +101,8 @@ img{
   top: 50%;
   font-size: 50px;
   cursor: pointer;
+  color: $font-color;
+  user-select: none;
   transition: all 0.2s ease-in-out;
   &:hover{
     transform: translateX(-10px);
@@ -98,6 +116,8 @@ img{
   right: 4%;
   font-size: 50px;
   cursor: pointer;
+  color: $font-color;
+  user-select: none;
   transition: all 0.2s ease-in-out;
   &:hover{
     transform: translateX(10px);

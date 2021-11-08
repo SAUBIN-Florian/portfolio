@@ -13,7 +13,7 @@ $background-alternative-2: #AD956B;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: calc(100vh - 200px);
   margin: 0 auto;
   padding: 0 0;
@@ -31,6 +31,13 @@ $background-alternative-2: #AD956B;
     font-size: 16px;
     line-height: 30px;
   }
+}
+
+.hero-banner-call{
+  margin-top: 120px;
+  color: $font-color;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 #canvas{
