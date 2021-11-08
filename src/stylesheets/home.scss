@@ -10,14 +10,13 @@ $background-alternative-2: #AD956B;
 }
 
 .hero-banner{
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: calc(100vh - 200px);
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 0 0;
   h1{
     font-size: 40px;
     margin-bottom: 50px;
@@ -34,11 +33,15 @@ $background-alternative-2: #AD956B;
   }
 }
 
-#canvas{
-  position: absolute;
-  top: calc(50% - 200px);
-  right: -70px;
-}
+// DEBUG CANVAS
+
+// #canvas{
+//   position: absolute;
+//   top: 200px;
+//   left: 0;
+//   z-index: -10;
+//   right: -70px;
+// }
 
 .carousel{
   display: flex;

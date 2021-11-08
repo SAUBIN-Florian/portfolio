@@ -5,10 +5,10 @@ const setupThreeCanvas = (element) => {
 
   const canvas = document.querySelector(element);
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, .1, 1000);
+  const camera = new THREE.PerspectiveCamera(75, 500 / 500, .1, 1000);
 
   const renderer = new THREE.WebGLRenderer({alpha: true});
-  renderer.setSize(600, 400);
+  renderer.setSize(500, 500);
   canvas.appendChild(renderer.domElement);
 
   new OrbitControls(camera, renderer.domElement);
@@ -18,7 +18,7 @@ const setupThreeCanvas = (element) => {
   const ico = new THREE.Mesh(geometry, material)
   scene.add(ico);
 
-  camera.position.z = 17;
+  camera.position.z = 19;
 
   const animate = () => {
     requestAnimationFrame(animate);

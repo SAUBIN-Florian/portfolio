@@ -17,7 +17,7 @@ export default function Home() {
             <h1 className="hero-banner-title">Hello, I'm <span className="hero-banner-span">Florian SAUBIN</span> !</h1>
             <p className="hero-banner-para">I'm a Front-End Developer from Lyon, FR.</p>
             <p className="hero-banner-para">I have passion for UI effects, logic and creating intuitive user experiences.</p>
-            <p className="hero-banner-para">I like to keep in touch with Back-End technologies too !</p>
+            <p className="hero-banner-para">I like to keep an eye on Back-End technologies too !</p>
           </div>
           <div id="canvas"></div>
         </div>
