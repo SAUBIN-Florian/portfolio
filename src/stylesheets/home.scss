@@ -33,15 +33,9 @@ $background-alternative-2: #AD956B;
   }
 }
 
-// DEBUG CANVAS
-
-// #canvas{
-//   position: absolute;
-//   top: 200px;
-//   left: 0;
-//   z-index: -10;
-//   right: -70px;
-// }
+#canvas{
+  cursor: grab;
+}
 
 .carousel{
   display: flex;

@@ -3,7 +3,9 @@ import "../stylesheets/header.scss";
 export default function Header() {
   return (
     <div className="header">
-      <a href="http://www.floriansaubin.com/" className="header-title">FLORIAN</a>
+      <a href="http://www.floriansaubin.com/" className="header-title">
+        <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1636371831/portfolio/icon-portfolio-1_pz7ywh.png" alt="logo" />
+      </a>
       <p className="header-sub-title">FRONT-END Developer</p>
       <div className="header-svg-back">
         <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
