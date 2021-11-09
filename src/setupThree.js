@@ -3,10 +3,8 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 const setupThreeCanvas = (element) => {
 
-  const vertex = ``;
-  const fragment = ``;
-
-  const imgUrl = "https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg?cs=srgb&dl=pexels-markus-spiske-330771.jpg&fm=jpg";
+  // const vertex = ``;
+  // const fragment = ``;
 
   const canvas = document.querySelector(element);
   const scene = new THREE.Scene();
@@ -35,7 +33,6 @@ const setupThreeCanvas = (element) => {
   const material = new THREE.MeshPhongMaterial({
     // side: THREE.DoubleSide,
     color: 0xe1a624,
-    // map: new THREE.TextureLoader().load(imgUrl),
     flatShading: true,
     // wireframe: true,
     // vertexShader: vertex,
