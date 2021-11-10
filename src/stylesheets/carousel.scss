@@ -133,18 +133,27 @@ img{
 @media (max-width: 481px){
 
   .carousel{
+    width: 100%;
     overflow-x: hidden;
   }
 
+  .carousel-title{
+    top: 5%;
+  }
+
   .carousel-landing{
+    width: 95%;
     flex-flow: column;
   }
 
   .carousel-blog{
+    width: 95%;
     flex-flow: column;
   }
 
   .carousel-widget{
+    width: 95%;
+    margin-left: 65px;
     flex-flow: column;
   }
 
@@ -158,7 +167,7 @@ img{
   }
 
   img{
-    width: 300px;
+    width: 370px;
     height: auto;
   }
 }
