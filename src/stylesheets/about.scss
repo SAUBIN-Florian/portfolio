@@ -67,3 +67,29 @@ $background-alternative-2: #AD956B;
     transform: translateX(65px);
   }
 }
+
+@media (max-width: 481px){
+  .about-home-section{
+    width: 95%;
+    height: 800px;
+  }
+
+  .about-home-content{
+    width: 100%;
+  }
+
+  .about-grid{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px 70px;
+    .alternate:hover::after{
+      transform: translateX(-40px);
+    }
+    .alternate-react:hover::after{
+      transform: translate(-50px);
+    }
+    .alternate-postgre:hover::after{
+      transform: translate(-90px);
+    }
+  }
+}

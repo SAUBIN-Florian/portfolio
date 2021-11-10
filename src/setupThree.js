@@ -11,6 +11,15 @@ const setupThreeCanvas = (element) => {
   const camera = new THREE.PerspectiveCamera(75, 500 / 500, .1, 1000);
 
   const renderer = new THREE.WebGLRenderer({alpha: true});
+  
+  const onMobileDevice = () => {
+    camera.aspect = 350 / 350;
+    camera.updateProjectionMatrix();
+    renderer.setSize(350, 350)
+  }
+
+  window.addEventListener("resize", onMobileDevice, false)
+
   renderer.setSize(500, 500);
   canvas.appendChild(renderer.domElement);
 
@@ -47,6 +56,8 @@ const setupThreeCanvas = (element) => {
     requestAnimationFrame(animate);
     ico.rotation.x += .003;
     ico.rotation.y += .003;
+
+    onMobileDevice();
 
     renderer.render(scene, camera);
   };

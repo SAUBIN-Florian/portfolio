@@ -8,7 +8,10 @@ $background-alternative-2: #AD956B;
 
 .carousel{
   position: relative;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 200px auto 0;
 }
 
 .carousel-title{
@@ -124,5 +127,38 @@ img{
   &:hover{
     transform: translateX(10px);
     color: $font-hover;
+  }
+}
+
+@media (max-width: 481px){
+
+  .carousel{
+    overflow-x: hidden;
+  }
+
+  .carousel-landing{
+    flex-flow: column;
+  }
+
+  .carousel-blog{
+    flex-flow: column;
+  }
+
+  .carousel-widget{
+    flex-flow: column;
+  }
+
+  .carousel-content{
+    h1{
+      font-size: 22px;
+    }
+    h3{
+      font-size: 18px;
+    }
+  }
+
+  img{
+    width: 300px;
+    height: auto;
   }
 }

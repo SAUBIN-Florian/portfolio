@@ -41,6 +41,7 @@ $background-alternative-2: #AD956B;
 }
 
 #canvas{
+  overflow-x: hidden;
   cursor: grab;
 }
 
@@ -54,5 +55,13 @@ $background-alternative-2: #AD956B;
   a{
     padding-right: 20px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 481px){
+  .hero-banner{
+    flex-flow: column;
+    height: auto;
+    margin-top: 30px;
   }
 }

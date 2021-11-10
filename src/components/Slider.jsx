@@ -9,26 +9,19 @@ export default function Slider() {
     cols: 1,
     rows: 1,
     scrollSnap: true,
-    containerStyle: {
-      "position": "relative",
-      "display": "flex",
-      "justifyContent": "center",
-      "width": "95%",
-      "margin": "0 auto",
-    },
     arrowLeft: <span className="prev-carousel-arrow">🠀</span>,
     arrowRight: <span className="next-carousel-arrow">🠂</span>,
     responsiveLayout: [
       {
-        breakpoint: 800,
+        breakpoint: 481,
         hideArrow: true,
+        showDots: true,
         cols: 1,
         rows: 1,
-        loop: true,
         autoplay: 5000
       }
     ],
-    mobileBreakpoint: 500
+    mobileBreakpoint: 481
   };
 
   const handleScrollTop = () => {

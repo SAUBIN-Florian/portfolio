@@ -47,3 +47,11 @@ body{
 .menu-item:hover{
   color: $font-hover;
 }
+
+@media (max-width: 481px){
+  .menu{
+    position: absolute;
+    top: 50px;
+    right: 8%;
+  }
+}
