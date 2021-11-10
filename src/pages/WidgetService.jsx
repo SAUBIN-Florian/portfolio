@@ -33,10 +33,10 @@ export default function WidgetService() {
         </div>
       </div>
       <div className="page-section-video">
-        <video className="video" autoPlay muted loop>
+        <video className="video" controls muted loop>
           <source src="/videos/landing-cut.mp4" type="video/mp4" />
         </video>
-        <p>Fully responsive design for all devices, desktop, tablet, phone...</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores ?</p>
       </div>
       <div className="page-section-img">
         <img src="https://via.placeholder.com/300/FFFF00/000000C/O https://placeholder.com/" alt="placeholder" />

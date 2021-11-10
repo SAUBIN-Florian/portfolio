@@ -33,7 +33,7 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="page-section-video">
-        <video className="video" autoPlay muted loop>
+        <video className="video" controls muted loop>
           <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1636012245/portfolio/landing-cut_l7xprm.mp4" type="video/mp4" />
         </video>
         <p>Fully responsive design for all devices: desktop, tablet, phone...</p>

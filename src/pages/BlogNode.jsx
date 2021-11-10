@@ -38,7 +38,7 @@ export default function BlogNode() {
         </div>
       </div>
       <div className="page-section-video">
-        <video className="video" autoPlay muted loop>
+        <video className="video" controls muted loop>
           <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1636012263/portfolio/node-blog-cut_ir2qvh.mp4" type="video/mp4" />
         </video>
         <p>Register/Login system with account management...</p>

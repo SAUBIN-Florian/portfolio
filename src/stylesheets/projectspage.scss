@@ -161,3 +161,42 @@ $background-alternative-2: #AD956B;
   font-size: 40px;
   color: $font-color;
 }
+
+@media (max-width: 481px){
+  .page-title{
+    width: 90%;
+    h1{
+      align-self: center;
+      font-size: 32px;
+    }
+  }
+
+  .page-section-content{
+    flex-flow: column;
+    width: 90%;
+  }
+
+  .page-scope{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .page-summary{
+    width: 100%;
+  }
+
+  .page-section-video{
+    width: 95%;
+    p{
+      width: 90%;
+    }
+  }
+
+  .page-section-img{
+    width: 95%;
+  }
+
+  .page-section-link{
+    width: 95%;
+  }
+}
