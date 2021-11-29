@@ -8,11 +8,14 @@ const setupThreeCanvas = (element) => {
 
   const canvas = document.querySelector(element);
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, 2, .1, 1000);
+  const camera = new THREE.PerspectiveCamera(75, 500 / 500, .1, 1000);
 
   const renderer = new THREE.WebGLRenderer({alpha: true});
 
-  const resizeRendererToDisplaySize = (renderer) => {
+  canvas.appendChild(renderer.domElement);
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+
+  const mobileResizer = (renderer) => {
     const canvas = renderer.domElement;
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
@@ -22,16 +25,6 @@ const setupThreeCanvas = (element) => {
     }
     return needResize;
   }
-  
-  const onMobileDevice = () => {
-    camera.aspect = 350 / 350;
-    camera.updateProjectionMatrix();
-    renderer.setSize(350, 350);
-  }
-
-  window.addEventListener("resize", onMobileDevice, false);
-
-  canvas.appendChild(renderer.domElement);
 
   // CAMERA CONTROLLER
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -67,13 +60,11 @@ const setupThreeCanvas = (element) => {
     ico.rotation.x += .003;
     ico.rotation.y += .003;
 
-    if (resizeRendererToDisplaySize(renderer)) {
-      const canvas = renderer.domElement;
-      camera.aspect = canvas.clientWidth / canvas.clientHeight;
-      camera.updateProjectionMatrix();
+    if(mobileResizer(renderer)){
+      camera.aspect = canvas.clientWidth / canvas.clientHeight
+      camera.projectionMatrix();
+      renderer.setSize(canvas.clientWidth, canvas.clientHeight)
     }
-
-    onMobileDevice();
 
     renderer.render(scene, camera);
   };
