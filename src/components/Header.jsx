@@ -3,7 +3,7 @@ import "../stylesheets/header.scss";
 export default function Header() {
   return (
     <div className="header">
-      <a href="http://www.floriansaubin.com/" className="header-title"><span className="header-span-f">f</span></a>
+      <a href="http://www.floriansaubin.com/" className="header-title"><span className="header-span-f">F</span></a>
       {/* <p className="header-sub-title">FRONT-END Developer</p> */}
       <div className="header-svg-back">
         <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
