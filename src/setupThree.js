@@ -62,7 +62,6 @@ const setupThreeCanvas = (element) => {
 
     if(mobileResizer(renderer)){
       camera.aspect = canvas.clientWidth / canvas.clientHeight
-      camera.projectionMatrix();
       renderer.setSize(canvas.clientWidth, canvas.clientHeight)
     }
 
