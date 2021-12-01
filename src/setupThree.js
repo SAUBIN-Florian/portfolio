@@ -32,14 +32,17 @@ const setupThreeCanvas = (element) => {
 
   //  LIGHTS
   const light1 = new THREE.DirectionalLight(0xffffff, 1);
-  const light2 = new THREE.DirectionalLight(0xffffff, 0.8);
+  const light2 = new THREE.DirectionalLight(0xffffff, 1);
   const light3 = new THREE.DirectionalLight(0xffffff, 0.3);
+  const light4 = new THREE.DirectionalLight(0xffffff, 0.3);
   light1.position.set(0, 0, 1);
   light2.position.set(0, 0, -1);
-  light3.position.set(1, 0, -1);
+  light3.position.set(1, 1, 1);
+  light4.position.set(-1, -1, -1);
   scene.add(light1);
   scene.add(light2);
   scene.add(light3);
+  scene.add(light4);
 
   const geometry = new THREE.IcosahedronGeometry(10, 1);
   const material = new THREE.MeshPhongMaterial({
