@@ -1,9 +1,15 @@
+import { useState } from "react";
 import emailjs from "emailjs-com";
 import "../stylesheets/contact.scss";
 
 
 export default function Contact() {
 
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  })
   const {REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_USER_ID} = process.env;
 
   const sendEmail = (e) => {
