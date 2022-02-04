@@ -18,7 +18,6 @@ $background-alternative-2: #AD956B;
   display: flex;
   align-items: center;
   flex-flow: column;
-  border-radius: 8px;
   box-shadow: 0.5px 0.5px 2px $font-color;
   width: 40%;
   margin: 0 auto;
@@ -27,52 +26,50 @@ $background-alternative-2: #AD956B;
 
 label{
   align-self: flex-start;
-  width: 60%;
+  width: 80%;
   margin: 10px auto 0;
   color: $font-color;
 }
 
 input{
-  width: 60%;
+  font-family: 'Prompt', sans-serif;
+  width: 80%;
   margin: 10px 0;
-  border: none;
-  font-size: 14px;
-  padding: 4px 6px;
-  border-bottom: 1px solid $font-color-alternative;
+  padding: 15px;
+  border: 1px solid $font-color-alternative;
+  border-radius: 5px;
   &:focus{
-    outline: none;
+    border: 1px solid $font-hover;
+    outline: 1px solid $font-hover;
   }
 }
 
 .textarea{
-  width: 60%;
+  font-family: 'Prompt', sans-serif;
+  width: 80%;
   height: 150px;
-  font-size: 14px;
   border: 0.3px solid $font-color-alternative;
-  padding: 6px 6px;
+  border-radius: 5px;
+  padding: 15px;
   margin: 10px 0;
+  resize: none;
   &:focus{
-    outline: 0.5px solid $font-color;
+    border: 1px solid $font-hover;
+    outline: 1px solid $font-hover;
   }
 }
 
 .contact-btn{
-  width: 20%;
-  border: 1px solid $font-color;
-  border-radius: 8px;
-  padding: 4px 8px;
-  color: $font-color;
-  font-weight: 700;
-  background-color: white;
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: $font-color;
+  color: white;
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  &:hover{
-    width: 25%;
-  }
-  &:active{
-    color: white;
-    background-color: $font-color;
-  }
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 
@@ -91,9 +88,5 @@ input{
 
   .textarea{
     width: 85%;
-  }
-
-  .contact-btn{
-    width: 30%;
   }
 }
