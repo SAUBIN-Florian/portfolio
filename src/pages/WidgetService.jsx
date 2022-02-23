@@ -10,7 +10,7 @@ export default function WidgetService() {
   return (
     <div className="widget-service">
       <div className="page-title">
-        <h3 className="title-date">2021</h3>
+        <h3 className="title-date">Coming soon...</h3>
         <h1 className="title-large">WIDGET SERVICE</h1>
       </div>
       <div className="page-section-content">

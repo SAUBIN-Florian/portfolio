@@ -59,7 +59,7 @@ export default function Slider() {
         <div className="carousel-widget">
           <div className="carousel-content">
             <h1>Widget Service</h1>
-            <h3>2021</h3>
+            <h3>Coming soon...</h3>
             <Link to="/widget-service" className="neo-btn" onClick={handleScrollTop}>
               ˃
             </Link>
