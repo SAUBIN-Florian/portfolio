@@ -33,8 +33,8 @@ export default function BlogNode() {
             <br /><br />
             I also implemented a 'login checker' with the React built-in reducer (useReducer) and store the action on local storage.
           </p>
-            <a href="https://saubin-florian.github.io/landing-page-demo/" target="blank">Go to site...</a>
-            <a href="https://github.com/SAUBIN-Florian" target="blank">Check the code...</a>
+            <a href="https://blog-node-flo.herokuapp.com/" target="blank">Go to site...</a>
+            <a href="https://github.com/SAUBIN-Florian/node-blog/tree/master/server" target="blank">Check the code...</a>
         </div>
       </div>
       <div className="page-section-video">
