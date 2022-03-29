@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import LandingPage from "./pages/LandingPage";
 import BlogNode from "./pages/BlogNode";
+import Cryptanalyze from "./pages/Cryptanalyze";
 import WidgetService from "./pages/WidgetService";
 import Contact from "./pages/Contact";
 import './stylesheets/portfolio.scss';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/contact" exact component={Contact} />
           <Route path="/landing-page" exact component={LandingPage} />
           <Route path="/blog-node" exact component={BlogNode} />
+          <Route path="/cryptanalyze" exact component={Cryptanalyze} />
           <Route path="/widget-service" exact component={WidgetService} />
         </main>
       </Router>

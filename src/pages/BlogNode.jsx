@@ -50,7 +50,7 @@ export default function BlogNode() {
       </div>
       <div className="page-section-link">
         <Link to="/landing-page" className="previous-link" onClick={handleScrollTop}>Landing Page</Link>
-        <Link to="/widget-service" className="next-link" onClick={handleScrollTop}>Widget Service</Link>
+        <Link to="/cryptanalyze" className="next-link" onClick={handleScrollTop}>Cryptanalyze.</Link>
       </div>
     </div>
   )

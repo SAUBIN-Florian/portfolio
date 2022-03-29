@@ -56,6 +56,18 @@ export default function Slider() {
         </div>
         </Carousel.Item>
         <Carousel.Item>
+        <div className="carousel-crypto">
+          <div className="carousel-content">
+            <h1>Cryptanalyze.</h1>
+            <h3>2022</h3>
+            <Link to="/cryptanalyze" className="neo-btn" onClick={handleScrollTop}>
+              ˃
+            </Link>
+          </div>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1648548509/portfolio/cryptanalyze-mockup_z6zmdm.png" alt="project 3"/>
+        </div>
+        </Carousel.Item>
+        <Carousel.Item>
         <div className="carousel-widget">
           <div className="carousel-content">
             <h1>Widget Service</h1>
@@ -64,7 +76,7 @@ export default function Slider() {
               ˃
             </Link>
           </div>
-          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1636011967/portfolio/wip_wkvu6w.png" alt="project 3"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1636011967/portfolio/wip_wkvu6w.png" alt="project 4"/>
         </div>
         </Carousel.Item>
       </Carousel>
