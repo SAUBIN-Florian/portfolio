@@ -44,11 +44,16 @@ input{
   }
 }
 
+.empty{
+  border: thin solid #e74c3c;
+  outline: thin solid #e74c3c;
+}
+
 .textarea{
   font-family: 'Prompt', sans-serif;
   width: 80%;
   height: 150px;
-  border: 0.3px solid $font-color-alternative;
+  border: 1px solid $font-color-alternative;
   border-radius: 5px;
   padding: 15px;
   margin: 10px 0;
@@ -63,15 +68,60 @@ input{
   width: 80%;
   height: 50px;
   padding: 10px;
-  border: none;
-  background-color: $font-color;
-  color: white;
+  border: 1px solid $font-color;
+  background-color: white;
+  color: $font-color;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
   font-size: 16px;
+  outline: none;
+  transition: all 0.13s ease;
+  &:hover{
+    background-color: $font-color;
+    color: white;
+  }
+  &:active{
+    background-color: $font-hover;
+    color: white;
+  }
+  &:focus{
+    outline: none;
+    border: 1px solid $font-color;
+  }
 }
 
+.error-msg{
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
+  color: #e74c3c;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+  animation: shake 0.7s alternate;
+}
+
+.sended-msg{
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
+  color: #2ecc71;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-5px);
+  }
+  50%{
+    transform: translateX(5px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
 
 @media (max-width: 481px){
   .contact-form{
