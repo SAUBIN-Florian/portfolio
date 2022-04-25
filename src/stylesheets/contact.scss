@@ -47,6 +47,10 @@ input{
 .empty{
   border: thin solid #e74c3c;
   outline: thin solid #e74c3c;
+  &:focus{
+    border: thin solid #e74c3c;
+    outline: thin solid #e74c3c; 
+  }
 }
 
 .textarea{
@@ -87,6 +91,8 @@ input{
   }
   &:focus{
     outline: none;
+    background-color: $font-hover;
+    color: white;
     border: 1px solid $font-color;
   }
 }
