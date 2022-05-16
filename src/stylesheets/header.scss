@@ -15,6 +15,7 @@ $background-alternative-2: #AD956B;
   color: $font-color;
   background-color: $background-alternative-2;
   overflow-x: hidden;
+  animation: slideDownHeader 1s forwards;
 }
 
 .header-svg-back {
@@ -45,6 +46,7 @@ $background-alternative-2: #AD956B;
   font-size: 48px;
   font-weight: 700;
   color: $font-color;
+  animation: headerTextOpacity 1.5s forwards;
   &:hover{
     color: $font-hover;
     span::after{
@@ -69,5 +71,30 @@ $background-alternative-2: #AD956B;
     transition: all 0.4s ease-in-out, color 0s;
     pointer-events: none;
     position: absolute;
+  }
+}
+
+// ANIMATIONS
+
+@keyframes slideDownHeader {
+  0%{
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes headerTextOpacity {
+  0%{
+    opacity: 0;
+  }
+  90%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
