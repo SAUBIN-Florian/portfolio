@@ -22,6 +22,7 @@ $background-alternative-2: #AD956B;
     margin-bottom: 50px;
     color: $font-color;
     font-weight: 500;
+    animation: slideUpFade 1s forwards;
   }
   span{
     color: $font-hover;
@@ -30,6 +31,7 @@ $background-alternative-2: #AD956B;
     color: $font-color;
     font-size: 16px;
     line-height: 30px;
+    animation: slideUpFade 1.7s forwards;
   }
 }
 
@@ -38,6 +40,7 @@ $background-alternative-2: #AD956B;
   color: $font-color;
   font-weight: 400;
   font-size: 12px;
+  animation: slideUpFade 2.5s forwards;
 }
 
 #canvas{
@@ -87,5 +90,18 @@ $background-alternative-2: #AD956B;
 
   .hero-banner-call{
     margin-top: 70px;
+  }
+}
+
+// ANIMATIONS
+
+@keyframes slideUpFade {
+  0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
   }
 }
