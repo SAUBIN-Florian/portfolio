@@ -93,12 +93,12 @@ $background-alternative-2: #AD956B;
   }
 }
 
-@media (min-width: 1600px) {
-  .hero-banner > h1{
+@media (min-width: 1600px){
+  .hero-banner-title{
     font-size: 32px;
   }
 
-  .hero-banner > p{
+  .hero-banner-para{
     font-size: 18px;
   }
 }
