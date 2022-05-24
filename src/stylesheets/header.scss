@@ -46,7 +46,7 @@ $background-alternative-2: #AD956B;
   font-size: 48px;
   font-weight: 700;
   color: $font-color;
-  animation: headerTextOpacity 1.5s forwards;
+  animation: headerTextOpacity 1.3s forwards;
   &:hover{
     color: $font-hover;
     span::after{
@@ -91,7 +91,7 @@ $background-alternative-2: #AD956B;
   0%{
     opacity: 0;
   }
-  90%{
+  70%{
     opacity: 0;
   }
   100%{

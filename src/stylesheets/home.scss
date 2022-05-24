@@ -93,6 +93,16 @@ $background-alternative-2: #AD956B;
   }
 }
 
+@media (min-width: 1600px) {
+  .hero-banner > h1{
+    font-size: 32px;
+  }
+
+  .hero-banner > p{
+    font-size: 18px;
+  }
+}
+
 // ANIMATIONS
 
 @keyframes slideUpFade {
