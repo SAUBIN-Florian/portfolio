@@ -15,15 +15,15 @@ export default function About() {
       <h1 className="about-title">TECHNOLOGIES</h1>
       <div className="about-home-content">
         <div className="about-grid">
-          <i className="devicon-javascript-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Javascript"></i>
+          <i className="devicon-typescript-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="TypeScript"></i>
           <i className="devicon-react-original alternate-react" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="React"></i>
-          <i className="devicon-nodejs-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="NodeJS"></i>
-          <i className="devicon-sass-original alternate" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Sass"></i>
-          <i className="devicon-figma-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Figma"></i>
-          <i className="devicon-git-plain alternate" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Git"></i>
-          <i className="devicon-ruby-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Ruby"></i>
-          <i className="devicon-postgresql-plain alternate-postgre" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Postgresql"></i>
+          <i className="devicon-angularjs-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Angular"></i>
+          <i className="devicon-nodejs-plain alternate-node" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="NodeJS"></i>
+          <i className="devicon-java-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Java"></i>
+          <i className="devicon-spring-plain alternate-spring" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Spring"></i>
           <i className="devicon-mongodb-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="MongoDB"></i>
+          <i className="devicon-postgresql-plain alternate-postgre" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Postgresql"></i>
+          <i className="devicon-git-plain" onMouseOver={handleHover} onMouseLeave={handleLeave} data-name="Git"></i>
         </div>
       </div>
     </div>
