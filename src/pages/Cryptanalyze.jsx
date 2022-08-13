@@ -1,5 +1,5 @@
-import "../stylesheets/projectspage.scss";
 import { Link } from "react-router-dom";
+import "../stylesheets/projectspage.scss";
 
 export default function BlogNode() {
 
@@ -48,8 +48,8 @@ export default function BlogNode() {
         <img className="crypto-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1648548518/portfolio/exchanges-crypto_oyubua.jpg" alt="crypto exchanges" />
       </div>
       <div className="page-section-link">
-        <Link to="/blog-node" className="previous-link" onClick={handleScrollTop}>Blog Node</Link>
-        <Link to="/widget-service" className="next-link" onClick={handleScrollTop}>Widget Service</Link>
+        <Link to="/landing-page" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Landing Page</Link>
+        <Link to="/blog-node" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Blog Node</Link>
       </div>
     </div>
   )

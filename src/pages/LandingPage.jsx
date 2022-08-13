@@ -44,8 +44,8 @@ export default function LandingPage() {
         <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-responsive-2_idjdjg.jpg"className="landing-img-3" alt="mockup of the phone demo" />
       </div>
       <div className="page-section-link">
-        <Link to="/widget-service" className="previous-link" onClick={handleScrollTop}>Widget Service</Link>
-        <Link to="/blog-node" className="next-link" onClick={handleScrollTop}>Blog Node</Link>
+        <Link to="/blog-node" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Blog Node</Link>
+        <Link to="/cryptanalyze" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Cryptanalyze.</Link>
       </div>
     </div>
   )

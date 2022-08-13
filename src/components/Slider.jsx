@@ -8,8 +8,8 @@ export default function Slider() {
     showDots: true,
     cols: 1,
     rows: 1,
-    arrowLeft: <span className="prev-carousel-arrow">🠀</span>,
-    arrowRight: <span className="next-carousel-arrow">🠂</span>,
+    arrowLeft: <span className="prev-carousel-arrow">&#129024;</span>,
+    arrowRight: <span className="next-carousel-arrow">&#129026;</span>,
     responsiveLayout: [
       {
         breakpoint: 481,
@@ -31,16 +31,16 @@ export default function Slider() {
     <div className="carousel">
       <h1 className="carousel-title">PROJECTS</h1>
       <Carousel {...settings}>
-        <Carousel.Item>
-        <div className="carousel-landing">
+      <Carousel.Item>
+        <div className="carousel-crypto">
           <div className="carousel-content">
-            <h1>Landing Page Demo</h1>
-            <h3>2021</h3>
-            <Link to="/landing-page" className="neo-btn" onClick={handleScrollTop}>
+            <h1>Cryptanalyze.</h1>
+            <h3>2022</h3>
+            <Link to="/cryptanalyze" className="neo-btn" onClick={handleScrollTop}>
               ˃
             </Link>
           </div>
-          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-mockup_jpgupy.png" alt="project 1"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1648548509/portfolio/cryptanalyze-mockup_z6zmdm.png" alt="project 3"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -56,15 +56,15 @@ export default function Slider() {
         </div>
         </Carousel.Item>
         <Carousel.Item>
-        <div className="carousel-crypto">
+        <div className="carousel-landing">
           <div className="carousel-content">
-            <h1>Cryptanalyze.</h1>
-            <h3>2022</h3>
-            <Link to="/cryptanalyze" className="neo-btn" onClick={handleScrollTop}>
+            <h1>Landing Page Demo</h1>
+            <h3>2021</h3>
+            <Link to="/landing-page" className="neo-btn" onClick={handleScrollTop}>
               ˃
             </Link>
           </div>
-          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1648548509/portfolio/cryptanalyze-mockup_z6zmdm.png" alt="project 3"/>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/landing-mockup_jpgupy.png" alt="project 1"/>
         </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -72,7 +72,7 @@ export default function Slider() {
           <div className="carousel-content">
             <h1>Widget Service</h1>
             <h3>Coming soon...</h3>
-            <Link to="/widget-service" className="neo-btn" onClick={handleScrollTop}>
+            <Link to="/" className="neo-btn">
               ˃
             </Link>
           </div>

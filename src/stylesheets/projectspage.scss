@@ -156,7 +156,7 @@ $background-alternative-2: #AD956B;
 }
 
 .previous-link::before{
-  content: "🠀";
+  content: attr(data-arrow);
   padding-right: 20px;
   vertical-align: -16%;
   font-size: 40px;
@@ -164,7 +164,7 @@ $background-alternative-2: #AD956B;
 }
 
 .next-link::after{
-  content: "🠂";
+  content: attr(data-arrow);
   padding-left: 20px;
   vertical-align: -16%;
   font-size: 40px;

@@ -49,8 +49,8 @@ export default function BlogNode() {
         <img className="blog-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1635965084/portfolio/blog-node-article_cgexo4.jpg" alt="blog article" />
       </div>
       <div className="page-section-link">
-        <Link to="/landing-page" className="previous-link" onClick={handleScrollTop}>Landing Page</Link>
-        <Link to="/cryptanalyze" className="next-link" onClick={handleScrollTop}>Cryptanalyze.</Link>
+        <Link to="/cryptanalyze" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Cryptanalyze.</Link>
+        <Link to="/landing-page" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Landing Page</Link>
       </div>
     </div>
   )
