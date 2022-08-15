@@ -64,6 +64,20 @@ $background-alternative-2: #AD956B;
   }
 }
 
+.carousel-planetarium{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  &:hover{
+    a::after{
+      opacity: 1;
+      transform: translateX(15px);
+    }
+  }
+}
+
 .carousel-widget{
   display: flex;
   justify-content: center;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../stylesheets/projectspage.scss";
 
-export default function BlogNode() {
+export default function Cryptanalyze() {
 
   const handleScrollTop = () => {
     window.scrollTo({top: 0})
@@ -38,7 +38,7 @@ export default function BlogNode() {
       </div>
       <div className="page-section-video">
         <video className="video" controls muted loop>
-          <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1648551236/portfolio/crypto-cut_wrdasj.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/ddtzq8qbr/video/upload/v1660581718/portfolio/crypto-cut_jt8yog.mp4" type="video/mp4" />
         </video>
         <p>Shared data by all components of the site</p>
       </div>
@@ -48,7 +48,7 @@ export default function BlogNode() {
         <img className="crypto-img" src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1648548518/portfolio/exchanges-crypto_oyubua.jpg" alt="crypto exchanges" />
       </div>
       <div className="page-section-link">
-        <Link to="/landing-page" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Landing Page</Link>
+        <Link to="/planetarium" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Planetarium</Link>
         <Link to="/blog-node" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Blog Node</Link>
       </div>
     </div>

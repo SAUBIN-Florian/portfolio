@@ -32,6 +32,18 @@ export default function Slider() {
       <h1 className="carousel-title">PROJECTS</h1>
       <Carousel {...settings}>
       <Carousel.Item>
+        <div className="carousel-planetarium">
+          <div className="carousel-content">
+            <h1>Planetarium</h1>
+            <h3>2022</h3>
+            <Link to="/planetarium" className="neo-btn" onClick={handleScrollTop}>
+              ˃
+            </Link>
+          </div>
+          <img src="https://res.cloudinary.com/ddtzq8qbr/image/upload/v1660582391/portfolio/planetarium-mockup_s6wzyz.png" alt="project 3"/>
+        </div>
+        </Carousel.Item>
+      <Carousel.Item>
         <div className="carousel-crypto">
           <div className="carousel-content">
             <h1>Cryptanalyze.</h1>
