@@ -18,12 +18,12 @@ Front-End:
   - SASS preprocessor
   - Javascript ES6
   - React
-  - Redux
+  - TypeScript
  
 Back-End:
 
   - Node JS / Express JS
-  - Ruby / Ruby on Rails
+  - Java / Spring Boot
 
 Database:
 
@@ -38,6 +38,5 @@ Other:
 
 Technologies I'm currently learning:
 
-  - TypeScript
-  - OpenGL
-  - GraphQL
+  - Angular
+  - WebGL
