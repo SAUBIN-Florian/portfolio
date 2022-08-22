@@ -1,13 +1,14 @@
 import { useEffect } from "react";
 import About from "../components/About";
 import Slider from "../components/Slider";
-import setupThreeCanvas from "../setupThree";
+import main from "../three/main";
 import "../stylesheets/home.scss";
 
 export default function Home() {
 
   useEffect(()=>{
-    setupThreeCanvas("#canvas")
+    // initialize three.js 3D element (ref: three directory)
+    main("#canvas")
   }, []);
 
   return (
