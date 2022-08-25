@@ -34,7 +34,7 @@ export class World {
 
     scene.add(ico, mainLight, globalLight);
 
-    const resizer = new Resizer(canvas, camera, renderer);
+    new Resizer(canvas, camera, renderer);
   }
 
   start() {

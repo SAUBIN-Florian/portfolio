@@ -1,5 +1,6 @@
 import { World } from "./World";
 
+//  ENTRY POINT FOR THREE JS..
 export default function main(canvas){
 
   const container = document.querySelector(canvas);

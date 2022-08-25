@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Carousel from 'react-grid-carousel';
+import Carousel from "react-grid-carousel";
 import "../stylesheets/carousel.scss";
 
 export default function Slider() {
@@ -13,10 +13,10 @@ export default function Slider() {
     responsiveLayout: [
       {
         breakpoint: 481,
-        hideArrow: true,
+        hideArrow: false,
         cols: 1,
         rows: 1,
-        gap: 220,
+        gap: 300,
         scrollSnap: true,
         autoplay: 5000
       }
