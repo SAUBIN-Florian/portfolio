@@ -22,7 +22,7 @@ $background-alternative-2: #AD956B;
     margin-bottom: 50px;
     color: $font-color;
     font-weight: 500;
-    animation: slideUpFade 1s forwards;
+    animation: slideUpFade 1000ms forwards;
   }
   span{
     color: $font-hover;
@@ -31,7 +31,7 @@ $background-alternative-2: #AD956B;
     color: $font-color;
     font-size: 16px;
     line-height: 30px;
-    animation: slideUpFade 1.7s forwards;
+    animation: slideUpFade 1700ms forwards;
   }
 }
 
@@ -40,7 +40,7 @@ $background-alternative-2: #AD956B;
   color: $font-color;
   font-weight: 400;
   font-size: 12px;
-  animation: slideUpFade 2.5s forwards;
+  animation: slideUpFade 2500ms forwards;
 }
 
 #canvas{

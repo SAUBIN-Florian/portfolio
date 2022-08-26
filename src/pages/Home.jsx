@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import About from "../components/About";
 import Slider from "../components/Slider";
+// Fade compoment for Animations
+import { Fade } from "../components/Fade";
 import main from "../three/main";
 import "../stylesheets/home.scss";
 
@@ -13,7 +15,8 @@ export default function Home() {
 
   return (
     <div className="home-page">
-        <div className="hero-banner">
+      <div className="hero-banner">
+        <Fade>
           <div className="hero-banner-content">
             <h1 className="hero-banner-title">Hello, I'm <span className="hero-banner-span">Florian SAUBIN</span> !</h1>
             <p className="hero-banner-para">I'm a Front-End Developer from Lyon, FR.</p>
@@ -21,10 +24,17 @@ export default function Home() {
             <p className="hero-banner-para">I like to keep an eye on Back-End technologies too !</p>
             <h3 className="hero-banner-call">SCROLL DOWN <span>˅</span></h3>
           </div>
+        </Fade>
+        <Fade once={true}>
           <div id="canvas"></div>
+        </Fade>
         </div>
+      <Fade>
         <About />
+      </Fade>
+      <Fade>
         <Slider />
-    </div>
+      </Fade>
+      </div>
   )
 }
