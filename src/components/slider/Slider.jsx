@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Carousel from "react-grid-carousel";
-import "../stylesheets/carousel.scss";
+import "./slider.scss";
 
 export default function Slider() {
 

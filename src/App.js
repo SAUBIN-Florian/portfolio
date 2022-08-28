@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import LandingPage from "./pages/LandingPage";
-import BlogNode from "./pages/BlogNode";
-import Cryptanalyze from "./pages/Cryptanalyze";
-import Planetarium from "./pages/Planetarium";
-// import WidgetService from "./pages/WidgetService";
-import Contact from "./pages/Contact";
-import './stylesheets/portfolio.scss';
+import Header from "components/header/Header";
+import Home from "pages/home/Home";
+import LandingPage from "pages/landing/LandingPage";
+import BlogNode from "pages/blog/BlogNode";
+import Cryptanalyze from "pages/crypto/Cryptanalyze";
+import Planetarium from "pages/planetarium/Planetarium";
+import Contact from "pages/contact/Contact";
+// import WidgetService from "pages/widget/WidgetService";
+import 'index.scss';
 
 function App() {
 

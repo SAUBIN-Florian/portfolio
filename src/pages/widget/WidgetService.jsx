@@ -1,7 +1,7 @@
 // WORK IN PROGRESS !
 
-// import "../stylesheets/projectspage.scss";
 // import { Link } from "react-router-dom";
+// import "pages/projectspage.scss";
 
 // export default function WidgetService() {
 

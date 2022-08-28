@@ -1,5 +1,5 @@
 import { useInView } from 'react-intersection-observer';
-import "../stylesheets/portfolio.scss";
+import "./fade.scss";
 
 export function Fade({once = false, children}) {
 

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import About from "../components/About";
-import Slider from "../components/Slider";
+import About from "components/about/About";
+import Slider from "components/slider/Slider";
 // Fade compoment for Animations
-import { Fade } from "../components/Fade";
-import main from "../three/main";
-import "../stylesheets/home.scss";
+import { Fade } from "components/fade/Fade";
+import main from "three/main";
+import "./home.scss";
 
 export default function Home() {
 

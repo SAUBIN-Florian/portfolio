@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../stylesheets/projectspage.scss";
+import "pages/projectspage.scss";
 
 export default function Cryptanalyze() {
 
