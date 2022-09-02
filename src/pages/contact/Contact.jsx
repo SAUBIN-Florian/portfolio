@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Fade } from "components/fade/Fade";
 import emailjs from "emailjs-com";
 import "./contact.scss";
 
@@ -51,18 +52,40 @@ export default function Contact() {
   }
 
   return (
-    <div className="contact-page">
-      <form className="contact-form" onSubmit={sendEmail}>
-        <label htmlFor="">Name</label>
-        <input className={empty.name ? "empty" : ""} type="text" name="name" value={data.name} onChange={onChange} placeholder="Enter name..." />
-        <label htmlFor="">Email</label>
-        <input className={empty.email ? "empty" : ""} type="text" name="email" value={data.email} onChange={onChange} placeholder="Enter email..." />
-        <label htmlFor="">Message</label>
-        <textarea className={`textarea ${empty.message ? "empty" : ""}`} name="message" value={data.message} onChange={onChange} placeholder="I would love to work with you..." />
-        { error && <span className="error-msg">Please complete all empty fields...</span> }
-        { sended && <span className="sended-msg">Your message were correctly send </span> }
-        <input className="contact-btn" type="submit" value="SUBMIT" />
-      </form>
-    </div>
+    <Fade>
+      <div className="contact-page">
+        <form className="contact-form" onSubmit={sendEmail}>
+          <label htmlFor="">Name</label>
+          <input 
+            className={empty.name ? "empty" : ""} 
+            type="text" 
+            name="name" 
+            value={data.name} 
+            onChange={onChange} 
+            placeholder="Enter name..." 
+          />
+          <label htmlFor="">Email</label>
+          <input 
+            className={empty.email ? "empty" : ""} 
+            type="text" 
+            name="email" 
+            value={data.email} 
+            onChange={onChange} 
+            placeholder="Enter email..." 
+          />
+          <label htmlFor="">Message</label>
+          <textarea 
+            className={`textarea ${empty.message ? "empty" : ""}`} 
+            name="message" 
+            value={data.message} 
+            onChange={onChange} 
+            placeholder="I would love to work with you..." 
+          />
+          { error && <span className="error-msg">Please complete all empty fields...</span> }
+          { sended && <span className="sended-msg">Your message were correctly send </span> }
+          <input className="contact-btn" type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </Fade>
   )
 }
