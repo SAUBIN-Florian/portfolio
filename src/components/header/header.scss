@@ -48,7 +48,6 @@ $background-alternative-2: #AD956B;
   color: $font-color;
   animation: headerTextOpacity 1.3s forwards;
   &:hover{
-    color: $font-hover;
     span::after{
       color: inherit;
       opacity: 1;
@@ -56,23 +55,32 @@ $background-alternative-2: #AD956B;
       pointer-events: initial;
     }
   }
-}
-
-.header-span-f{
-  position: relative;
-  &::after{
-    content: "loriansaubin.com";
-    top: calc(50% - 11px);
-    left: 0;
-    color: inherit;
-    font-weight: 500;
-    opacity: 0;
-    font-size: 25px;
-    transition: all 0.4s ease-in-out, color 0s;
-    pointer-events: none;
+  i{
+    position: relative;
+    width: 55px;
+    font-size: 55px;
+    color: $font-color;
+    transition: all 0.3s ease-in-out;
+  }
+  i::after{
+    content: attr(data-name);
     position: absolute;
+    opacity: 0;
+    top: calc(50% - 7px);
+    color: $font-hover;
+    left: 0;
+    width: 470%;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out, color 0s;
+  }
+  i:hover::after{
+    opacity: 1;
+    transform: translateX(65px);
   }
 }
+
 
 // ANIMATIONS
 

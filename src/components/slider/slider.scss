@@ -10,6 +10,7 @@ $background-alternative-2: #AD956B;
   position: relative;
   display: flex;
   justify-content: center;
+  flex-flow: column;
   width: 90%;
   margin: 200px auto 0;
 }
@@ -20,6 +21,24 @@ $background-alternative-2: #AD956B;
   left: calc(50% - 71px);
   font-size: 30px;
   color: $font-color;
+}
+
+.projects-filter-btns {
+  margin-top: 100px;
+  button {
+    margin: 0 4px;
+    padding: 6px 12px;
+    background-color: white;
+    color: $font-color;
+    border: 1px solid $font-color;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+  button:hover {
+    color: $font-hover;
+    border: 1px solid $font-hover;
+  }
 }
 
 .carousel-landing{
@@ -78,6 +97,20 @@ $background-alternative-2: #AD956B;
   }
 }
 
+.carousel-retail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  &:hover{
+    a::after{
+      opacity: 1;
+      transform: translateX(15px);
+    }
+  }
+}
+
 .carousel-widget{
   display: flex;
   justify-content: center;
@@ -111,7 +144,7 @@ $background-alternative-2: #AD956B;
       content: "View Project...";
       position: absolute;
       top: calc(50% - 14px);
-      left: 0;
+      left: 6px;
       color: inherit;
       opacity: 0;
       font-size: 18px;
@@ -155,6 +188,21 @@ img{
   &:hover{
     transform: translateX(10px);
     color: $font-hover;
+  }
+}
+
+.animate-carousel {
+  animation: carouselFade 500ms forwards ease-in-out;
+}
+
+@keyframes carouselFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

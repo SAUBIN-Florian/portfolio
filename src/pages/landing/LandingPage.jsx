@@ -56,7 +56,7 @@ export default function LandingPage() {
       </div>
       <div className="page-section-link">
         <Link to="/blog-node" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Blog Node</Link>
-        <Link to="/planetarium" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Planetarium</Link>
+        <Link to="/retail-api" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Retail API</Link>
       </div>
     </div>
   )

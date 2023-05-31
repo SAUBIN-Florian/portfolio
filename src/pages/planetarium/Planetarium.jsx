@@ -58,7 +58,7 @@ export default function Planetarium() {
         </Fade>
       </div>
       <div className="page-section-link">
-        <Link to="/landing-page" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Landing Page</Link>
+        <Link to="/retail-api" className="previous-link" data-arrow="&#129024;" onClick={handleScrollTop}>Retail API</Link>
         <Link to="/cryptanalyze" className="next-link" data-arrow="&#129026;" onClick={handleScrollTop}>Cryptanalyze.</Link>
       </div>
     </div>

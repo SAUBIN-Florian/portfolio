@@ -15,7 +15,7 @@ $background-alternative-2: #AD956B;
   align-items: center;
   width: 80%;
   height: calc(100vh - 200px);
-  margin: 0 auto;
+  margin: 0 auto 80px;
   padding: 0 0;
   h1{
     font-size: 40px;
@@ -31,16 +31,9 @@ $background-alternative-2: #AD956B;
     color: $font-color;
     font-size: 16px;
     line-height: 30px;
+    padding: 6px;
     animation: slideUpFade 1700ms forwards;
   }
-}
-
-.hero-banner-call{
-  margin-top: 120px;
-  color: $font-color;
-  font-weight: 400;
-  font-size: 12px;
-  animation: slideUpFade 2500ms forwards;
 }
 
 #canvas{
@@ -86,10 +79,6 @@ $background-alternative-2: #AD956B;
   #canvas{
     width: 350px;
     height: 350px;
-  }
-
-  .hero-banner-call{
-    margin-top: 70px;
   }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://www.floriansaubin.com/relativepath/",
+  "homepage": "http://www.floriansaubin.com/",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -9,19 +9,19 @@
     "yarn": "1.x"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "emailjs-com": "^3.2.0",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "emailjs-com": "3.2.0",
     "node-sass": "4.14.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-grid-carousel": "^1.0.1",
-    "react-intersection-observer": "^9.4.0",
-    "react-router-dom": "^5.3.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-grid-carousel": "1.0.1",
+    "react-intersection-observer": "9.4.0",
+    "react-router-dom": "5.3.0",
     "react-scripts": "4.0.3",
-    "three": "^0.134.0",
-    "web-vitals": "^1.0.1"
+    "three": "0.134.0",
+    "web-vitals": "1.0.1"
   },
   "scripts": {
     "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
@@ -48,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "glslify": "^7.1.1"
+    "glslify": "7.1.1"
   }
 }

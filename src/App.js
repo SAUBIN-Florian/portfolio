@@ -6,6 +6,7 @@ import LandingPage from "pages/landing/LandingPage";
 import BlogNode from "pages/blog/BlogNode";
 import Cryptanalyze from "pages/crypto/Cryptanalyze";
 import Planetarium from "pages/planetarium/Planetarium";
+import Retail from "pages/retail/Retail";
 import Contact from "pages/contact/Contact";
 // import WidgetService from "pages/widget/WidgetService";
 import 'index.scss';
@@ -42,6 +43,7 @@ function App() {
           <Route path="/blog-node" exact component={BlogNode} />
           <Route path="/cryptanalyze" exact component={Cryptanalyze} />
           <Route path="/planetarium" exact component={Planetarium} />
+          <Route path="/retail-api" exact component={Retail} />
           {/* WORK IN PROGRESS ! */}
           {/* <Route path="/widget-service" exact component={WidgetService} /> */}
         </main>
